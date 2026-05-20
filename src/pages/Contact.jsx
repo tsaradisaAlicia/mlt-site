@@ -4,7 +4,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaWhatsapp,
+  
 } from "react-icons/fa";
 
 function Contact() {
