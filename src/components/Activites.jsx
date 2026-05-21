@@ -103,11 +103,11 @@ function Activites() {
               general merchandise with reliable international logistics
               and professional supply chain solutions.
             </p>
-
+        {/* On va faire juste commentaire le bouton 
             <button className="bg-gradient-to-r from-[#0A1F44] to-[#1E3A8A] text-white px-8 py-4 rounded-xl shadow-xl hover:scale-105 transition duration-300">
               Explore More
             </button>
-
+        */}
           </motion.div>
 
           {/* IMAGES */}
@@ -318,11 +318,11 @@ function Activites() {
               <span className="bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm">Maintenance</span>
               <span className="bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm">Repair</span>
             </div>
-
+          {/* On va faire juste commentaire le bouton
             <button className="bg-gradient-to-r from-cyan-600 to-blue-700 text-white px-8 py-4 rounded-xl shadow-xl hover:scale-105 transition duration-300">
               Explore more
             </button>
-
+          */}
           </motion.div>
 
         </div>
@@ -381,11 +381,11 @@ function Activites() {
         </span>
 
       </div>
-
+    {/* On va faire juste commentaire le bouton        
       <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-xl shadow-2xl hover:scale-105 transition duration-300">
         Explore More
       </button>
-
+    */}
     </motion.div>
 
     {/* IMAGES */}
@@ -486,11 +486,11 @@ function Activites() {
         </span>
 
       </div>
-
+      {/* On va faire juste commentaire le bouton
       <button className="bg-gradient-to-r from-yellow-600 to-orange-500 text-white px-8 py-4 rounded-xl shadow-2xl hover:scale-105 transition duration-300">
         Explore More
       </button>
-
+      */}
     </motion.div>
 
   </div>
