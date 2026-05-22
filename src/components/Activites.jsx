@@ -19,11 +19,11 @@ import bat2 from "../assets/batiment/bat2.png";
 //import bat3 from "../assets/batiment/bat3.jpg";
 import bat4 from "../assets/batiment/bat4.jpg";
 
-/* COMMERCE DES MATERIAUX DE CONSTRUCTION 
-import mat1 from "../assets/materiaux/mat1.jpg";
+/* COMMERCE DES MATERIAUX DE CONSTRUCTION */
+import mat1 from "../assets/materiaux/mat1.avif";
 import mat2 from "../assets/materiaux/mat2.jpg";
-import mat3 from "../assets/materiaux/mat3.jpg";
-import mat4 from "../assets/materiaux/mat4.jpg";*/
+import mat3 from "../assets/materiaux/mat3.jpeg";
+import mat4 from "../assets/materiaux/mat4.png";
 
 /*================================================*/
 function Activites() {
@@ -68,7 +68,7 @@ function Activites() {
       <section className="py-24 relative">
 
         {/* Background blur */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200/30 blur-3xl rounded-full"></div>
+        <div className="absolute top-0 right-0 w-[550px] h-[700px] bg-blue-500/30 blur-3xl rounded-full"></div>
 
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center relative z-10">
 
@@ -195,7 +195,7 @@ function Activites() {
       <section className="py-24 bg-white relative overflow-hidden">
 
         {/* Background glow */}
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-200/30 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-[550px] h-[700px] bg-cyan-200/30 blur-3xl rounded-full"></div>
 
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
 
@@ -332,7 +332,7 @@ function Activites() {
 <section className="py-24 relative overflow-hidden bg-gradient-to-br from-[#0f172a] to-[#1e293b]">
 
   {/* GLOW */}
-  <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-orange-500/10 blur-3xl rounded-full"></div>
+  <div className="absolute top-0 right-0 w-[550px] h-[700px] bg-orange-500/30 blur-3xl rounded-full"></div>
 
   <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center relative z-10">
 
@@ -434,11 +434,86 @@ function Activites() {
 <section className="py-24 bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] relative overflow-hidden">
 
   {/* BACKGROUND GLOW */}
-  <div className="absolute top-20 left-0 w-[350px] h-[350px] bg-yellow-200/30 blur-3xl rounded-full"></div>
+  <div className="absolute top-20 left-0 w-[550px] h-[700px] bg-yellow-200/60 blur-3xl rounded-full"></div>
 
   <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center relative z-10">
 
-   
+    {/* IMAGES */}
+    <motion.div
+      initial={{ opacity: 0, x: -80 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      className="relative h-[700px] flex items-center justify-center"
+    >
+
+      {/* IMAGE 1 */}
+    <div
+      className="absolute top-0 left-0 w-[240px] h-[240px]
+      rotate-45 rounded-[45px]
+      overflow-hidden border-[6px] border-white
+      shadow-[0_25px_60px_rgba(0,0,0,0.20)]
+      hover:scale-110 hover:-translate-y-2
+      transition duration-700 bg-white"
+    >
+      <img
+        src={mat1}
+        alt=""
+        className="w-full h-full object-contain -rotate-45 p-2"
+      />
+    </div>
+
+{/* IMAGE 2 */}
+    <div
+      className="absolute top-0 right-10 w-[240px] h-[240px]
+      rotate-45 rounded-[45px]
+      overflow-hidden border-[6px] border-white
+      shadow-[0_25px_60px_rgba(0,0,0,0.20)]
+      hover:scale-110 hover:-translate-y-2
+      transition duration-700 bg-white"
+    >
+      <img
+        src={mat2}
+        alt=""
+        className="w-full h-full object-contain -rotate-45 p-2"
+      />
+    </div>
+
+{/* IMAGE 3 */}
+    <div
+      className="absolute bottom-0 left-0 w-[240px] h-[240px]
+      rotate-45 rounded-[45px]
+      overflow-hidden border-[6px] border-white
+      shadow-[0_25px_60px_rgba(0,0,0,0.20)]
+      hover:scale-110 hover:-translate-y-2
+      transition duration-700 bg-white"
+    >
+      <img
+        src={mat3}
+        alt=""
+        className="w-full h-full object-contain -rotate-45 p-2"
+      />
+    </div>
+
+{/* IMAGE 4 */}
+    <div
+      className="absolute bottom-0 right-10 w-[240px] h-[240px]
+      rotate-45 rounded-[45px]
+      overflow-hidden border-[6px] border-white
+      shadow-[0_25px_60px_rgba(0,0,0,0.20)]
+      hover:scale-110 hover:-translate-y-2
+      transition duration-700 bg-white"
+    >
+      <img
+        src={mat4}
+        alt=""
+        className="w-full h-full object-contain -rotate-45 p-2"
+      />
+    </div>
+
+     
+
+    </motion.div>
 
     {/* TEXT */}
     <motion.div
@@ -486,11 +561,7 @@ function Activites() {
         </span>
 
       </div>
-      {/* On va faire juste commentaire le bouton
-      <button className="bg-gradient-to-r from-yellow-600 to-orange-500 text-white px-8 py-4 rounded-xl shadow-2xl hover:scale-105 transition duration-300">
-        Explore More
-      </button>
-      */}
+
     </motion.div>
 
   </div>
@@ -572,7 +643,7 @@ function Activites() {
       >
 
         <FaClock className="text-cyan-400 text-5xl mb-6" />
-g
+
         <h3 className="text-white text-2xl font-semibold mb-4">
           Flexible Rental
         </h3>
