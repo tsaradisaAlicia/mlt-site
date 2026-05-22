@@ -80,7 +80,7 @@ function Navbar() {
 
             </Link>
           </li>
-
+    {/*
           <li>
             <Link
               to="/about"
@@ -92,7 +92,7 @@ function Navbar() {
 
             </Link>
           </li>
-
+      */}
           <li>
             <Link
               to="/activities"

@@ -10,7 +10,7 @@ import exp4 from "../assets/export/export4.png";
 /* CLIM */
 import clim1 from "../assets/clim/clim.jpg";
 import clim2 from "../assets/clim/clim2.jpeg";
-import clim3 from "../assets/clim/clim3.jpg";
+import clim3 from "../assets/clim/clim3.png";
 import clim4 from "../assets/clim/clim4.png";
 
 /* BATIMENT */
@@ -572,7 +572,7 @@ function Activites() {
       >
 
         <FaClock className="text-cyan-400 text-5xl mb-6" />
-
+g
         <h3 className="text-white text-2xl font-semibold mb-4">
           Flexible Rental
         </h3>
