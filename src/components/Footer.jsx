@@ -86,7 +86,7 @@ function Footer() {
                 <FaMapMarkerAlt className="text-cyan-400 mt-1" />
 
                 <p>
-                  Dubai
+                  
                 </p>
               </div>
 
@@ -94,7 +94,7 @@ function Footer() {
                 <FaPhoneAlt className="text-cyan-400" />
 
                 <p>
-                  +971 XX XXX XX
+                  +XX XX XXX XX
                 </p>
               </div>
 

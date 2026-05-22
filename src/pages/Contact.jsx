@@ -80,7 +80,7 @@ function Contact() {
                   </h3>
 
                   <p className="text-gray-400 mt-2">
-                    +971 XX XXX XX
+                    +XX XX XXX XX
                   </p>
                 </div>
 
@@ -126,7 +126,7 @@ function Contact() {
                   </h3>
 
                   <p className="text-gray-400 mt-2">
-                    Dubai
+                   
                   </p>
                 </div>
 
