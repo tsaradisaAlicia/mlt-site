@@ -1,7 +1,4 @@
-import fond from "../assets/fond.jpg";
 import { motion } from "framer-motion";
-import { ReactTyped } from "react-typed";
-import { Link } from "react-router-dom";
 
 /* IMAGES */
 import hero from "../assets/hero.png";
