@@ -28,6 +28,7 @@ import mat4 from "../assets/materiaux/mat4.png";
 /*================================================*/
 function Activites() {
   return (
+    
     <div className="bg-[#f7f9fc] overflow-hidden">
 
       {/* ================= SECTION TITLE ================= */}

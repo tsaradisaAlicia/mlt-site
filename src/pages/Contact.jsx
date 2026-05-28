@@ -80,7 +80,7 @@ function Contact() {
                   </h3>
 
                   <p className="text-gray-400 mt-2">
-                    +XX XX XXX XX
+                    +250 795 0367 60
                   </p>
                 </div>
 
