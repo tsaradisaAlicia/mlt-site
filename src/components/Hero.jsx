@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 /* IMAGES */
 import hero from "../assets/hero.png";
 import service1 from "../assets/service1.jpg";
@@ -14,7 +14,7 @@ function Hero() {
      <div className="bg-[#ffffff] overflow-hidden">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative h-[80vh] flex items-center overflow-hidden">
+      <section className="relative h-[80vh] flex items-center overflow-hidden opacity-[9500]">
 
         {/* BACKGROUND IMAGE */}
         <img
@@ -66,12 +66,10 @@ function Hero() {
               {/* BUTTONS */}
               <div className="flex flex-wrap gap-5 mt-10">
 
-                <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-4 rounded-xl font-semibold shadow-2xl hover:scale-105 transition duration-300">
+                <Link to="/contact" className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-4 rounded-xl font-semibold shadow-2xl hover:scale-105 transition duration-300">
                   Contact Us
-                </button>
-
+                </Link>
                 
-
               </div>
 
             </motion.div>
@@ -83,7 +81,7 @@ function Hero() {
             <svg
               className="relative block w-full h-[100px]"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 2440 320"
+              viewBox="0 0 1440 320"
               preserveAspectRatio="none"
             >
               <path

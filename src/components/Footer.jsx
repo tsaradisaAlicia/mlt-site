@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -49,19 +50,27 @@ function Footer() {
             <ul className="space-y-4 text-gray-400">
 
               <li className="hover:text-cyan-400 transition duration-300 cursor-pointer">
+                <Link to="/">
                 Home
+                </Link>
               </li>
 
               <li className="hover:text-cyan-400 transition duration-300 cursor-pointer">
-                About
+                <Link to="/about">
+                  About
+                </Link>
               </li>
 
               <li className="hover:text-cyan-400 transition duration-300 cursor-pointer">
-                Activities
+                <Link to="/activities">
+                  Activities
+                </Link>
               </li>
 
               <li className="hover:text-cyan-400 transition duration-300 cursor-pointer">
-                Contact
+                <Link to="/contact">
+                  Contact
+                </Link>
               </li>
 
             </ul>
@@ -86,7 +95,7 @@ function Footer() {
                 <FaMapMarkerAlt className="text-cyan-400 mt-1" />
 
                 <p>
-                  
+                  Rwanda
                 </p>
               </div>
 
@@ -94,7 +103,7 @@ function Footer() {
                 <FaPhoneAlt className="text-cyan-400" />
 
                 <p>
-                  +XX XX XXX XX
+                  +250 795 036 760
                 </p>
               </div>
 
