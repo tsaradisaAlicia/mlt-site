@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCarSide, FaClock, FaMapMarkedAlt, FaShieldAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 /* EXPORT */
 import exp1 from "../assets/export/export1.jpg";
@@ -30,9 +31,11 @@ function Activites() {
   return (
     
     <div className="bg-[#f7f9fc] overflow-hidden">
+      
 
       {/* ================= SECTION TITLE ================= */}
 <section className="pt-32 pb-10 relative overflow-hidden">
+
 
   {/* Background Glow */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-blue-200/20 blur-3xl rounded-full"></div>
@@ -77,6 +80,7 @@ function Activites() {
           <motion.div 
             initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
+            
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >

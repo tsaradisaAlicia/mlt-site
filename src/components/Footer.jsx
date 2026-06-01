@@ -158,7 +158,7 @@ function Footer() {
         {/* BOTTOM */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-sm">
 
-          <p>
+          <p className="text-gray-400 mb-6">
             © 2026 MLT - All Rights Reserved
           </p>
 

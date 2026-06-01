@@ -107,7 +107,7 @@ function Navbar() {
 
           <li>
             <Link
-              to="/Contact"
+              to="/contact"
               className="hover:text-cyan-400 transition duration-300 relative group"
             >
               Contact
@@ -123,7 +123,7 @@ function Navbar() {
         <div className="hidden md:block">
 
           <Link
-            to="/Contact"
+            to="/contact"
             className="bg-gradient-to-r from-cyan-500 to-blue-700
             px-6 py-3 rounded-full text-white font-semibold
             shadow-xl hover:scale-105 transition duration-300"
