@@ -6,21 +6,18 @@ import {
   FaFlask,
   FaUtensils,
   FaHome,
-  FaFan,
   FaFire,
-  FaSink,
-  FaWrench,
+  FaSink,  
   FaSnowflake,
   FaTools,
   FaWarehouse,
-  FaLeaf,
   FaGlobeAfrica,
   FaBuilding,
   FaIndustry,
   FaWind,
 } from "react-icons/fa";
 import aboutHero from "../assets/about/about-hero.png";
-import vision from "../assets/vision.jpg";
+
 import beans from "../assets/export/export4.png";
 import bambara from "../assets/export/bambara.jpg";
 import blackeye from "../assets/export/blackeye.jpg";

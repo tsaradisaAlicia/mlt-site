@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCarSide, FaClock, FaMapMarkedAlt, FaShieldAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 
 /* EXPORT */
 import exp1 from "../assets/export/export1.jpg";
