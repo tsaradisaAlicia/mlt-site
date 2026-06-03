@@ -10,9 +10,9 @@ import {
   FaSink,  
   FaSnowflake,
   FaTools,
-  FaWarehouse,
+  
   FaGlobeAfrica,
-  FaBuilding,
+ 
   FaIndustry,
   FaWind,
 } from "react-icons/fa";
