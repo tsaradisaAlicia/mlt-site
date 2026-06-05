@@ -103,7 +103,7 @@ function Footer() {
                 <FaPhoneAlt className="text-cyan-400" />
 
                 <p>
-                  +250 795 036 760
+                  +250 795 036 760 / +261 34 09 545 15
                 </p>
               </div>
 
