@@ -49,7 +49,7 @@ function Hero() {
                 Technical Services &
                 
                 <span className="block text-cyan-400">
-                  Export Solutions
+                  Grai Exportation 
                 </span>
 
               </h1>
