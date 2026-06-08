@@ -126,7 +126,7 @@ function Contact() {
                   </h3>
 
                   <p className="text-gray-400 mt-2">
-                   Rwanda
+                   Rwanda / Madagascar
                   </p>
                 </div>
 

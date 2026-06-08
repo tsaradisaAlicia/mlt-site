@@ -49,7 +49,7 @@ function Hero() {
                 Technical Services &
                 
                 <span className="block text-cyan-400">
-                  Grai Exportation 
+                  Grain Exportation 
                 </span>
 
               </h1>
