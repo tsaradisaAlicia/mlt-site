@@ -95,7 +95,7 @@ function Footer() {
                 <FaMapMarkerAlt className="text-cyan-400 mt-1" />
 
                 <p>
-                  Rwanda
+                  Rwanda / Madagascar
                 </p>
               </div>
 
