@@ -17,6 +17,7 @@ import {
   FaWind,
 } from "react-icons/fa";
 import aboutHero from "../assets/about/about-hero.png";
+import refrigerationHero from "../assets/about/refrigeration.jpg";
 
 import beans from "../assets/export/export4.png";
 import bambara from "../assets/export/bambara.jpg";
@@ -63,58 +64,82 @@ const bottomProducts = [
 
         <div className="absolute inset-0 bg-black/40"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-32">
+       <div className="relative z-10 max-w-[1600px] mx-auto px-4 py-28">
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+  <div className="grid lg:grid-cols-3 gap-12 items-center">
 
-    {/* TEXTE */}
+    {/* IMAGE LEFT */}
+    <motion.div
+      initial={{ opacity: 0, x: -80 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      className="hidden lg:block"
+    >
+      <img
+        src={refrigerationHero}
+        alt="Industrial Refrigeration"
+        className="
+          w-full
+          h-[620px]
+          object-cover
+          rounded-[40px]
+          shadow-2xl
+          hover:scale-105
+          transition-all
+          duration-700
+          "
+      />
+    </motion.div>
+
+
+    {/* TEXT CENTER */}
     <motion.div
       initial={{ opacity: 0, y: 80 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
+      className="text-center"
     >
 
       <span className="uppercase tracking-[6px] text-cyan-400 font-semibold">
         About Our Company
       </span>
-
-      <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mt-6">
-        PROFESSIONAL
-        <br />
-        TECHNICAL SOLUTIONS &
-        <br />
-        GRAIN EXPORTATION
-      </h1>
+    <h1 className="text-4xl md:text-5xl font-black text-white leading-tight mt-6">
+      PROFESSIONAL
+      <br />
+      TECHNICAL SOLUTIONS &
+      <br />
+      GRAIN EXPORTATION
+    </h1>
 
       <p className="text-gray-300 text-lg leading-relaxed mt-8">
         Based in Madagascar since 2011, we provide professional
         and high-performance technical solutions for industrial,
-        commercial, hospitality, healthcare, and residential sectors.
+        commercial, hospitality, healthcare and residential sectors.
       </p>
 
     </motion.div>
 
-    {/* IMAGE */}
+
+    {/* IMAGE RIGHT */}
     <motion.div
       initial={{ opacity: 0, x: 80 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
-      className="relative"
     >
-
-      <div className="relative rounded-[40px] overflow-hidden shadow-2xl">
-
-        <img
-          src={aboutHero}
-          alt="About MLT"
-          className="w-full h-[550px] object-cover"
-        />
-
-      </div>
-
-      {/* décoration */}
-      <div className="absolute -bottom-6 -left-6 w-32 h-32 border-4 border-cyan-400 rounded-[30px]"></div>
-
+      <img
+        src={aboutHero}
+        alt="Export Solutions"
+        className="
+          w-full
+          h-[620px]
+          object-cover
+          rounded-[40px]
+          shadow-2xl
+          hover:scale-105
+          transition-all
+          duration-700
+          "
+      />
     </motion.div>
 
   </div>
